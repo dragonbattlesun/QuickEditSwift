@@ -1,0 +1,6 @@
+module Pods_QuickEditSwift {
+  umbrella header "Pods-QuickEditSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
