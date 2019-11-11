@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3D2E4898237410D5001048FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2E4897237410D5001048FB /* AppDelegate.swift */; };
 		3D2E489A237410D5001048FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2E4899237410D5001048FB /* SceneDelegate.swift */; };
-		3D2E489C237410D5001048FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2E489B237410D5001048FB /* ViewController.swift */; };
+		3D2E489C237410D5001048FB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2E489B237410D5001048FB /* HomeViewController.swift */; };
 		3D2E489F237410D5001048FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2E489D237410D5001048FB /* Main.storyboard */; };
 		3D2E48A1237410D6001048FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2E48A0237410D6001048FB /* Assets.xcassets */; };
 		3D2E48A4237410D6001048FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2E48A2237410D6001048FB /* LaunchScreen.storyboard */; };
@@ -23,7 +23,7 @@
 		3D2E4894237410D5001048FB /* 快剪辑.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "快剪辑.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2E4897237410D5001048FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D2E4899237410D5001048FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D2E489B237410D5001048FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D2E489B237410D5001048FB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3D2E489E237410D5001048FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D2E48A0237410D6001048FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D2E48A3237410D6001048FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -72,15 +72,47 @@
 		3D2E4896237410D5001048FB /* QuickEditSwift */ = {
 			isa = PBXGroup;
 			children = (
+				3D6F0EF923795DEE005D69AF /* Home */,
 				3D2E4897237410D5001048FB /* AppDelegate.swift */,
 				3D2E4899237410D5001048FB /* SceneDelegate.swift */,
-				3D2E489B237410D5001048FB /* ViewController.swift */,
 				3D2E489D237410D5001048FB /* Main.storyboard */,
 				3D2E48A0237410D6001048FB /* Assets.xcassets */,
 				3D2E48A2237410D6001048FB /* LaunchScreen.storyboard */,
 				3D2E48A5237410D6001048FB /* Info.plist */,
 			);
 			path = QuickEditSwift;
+			sourceTree = "<group>";
+		};
+		3D6F0EF923795DEE005D69AF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3D6F0EFC23795E11005D69AF /* Model */,
+				3D6F0EFB23795E05005D69AF /* ViewModel */,
+				3D6F0EFA23795DFE005D69AF /* View */,
+				3D2E489B237410D5001048FB /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3D6F0EFA23795DFE005D69AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D6F0EFB23795E05005D69AF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3D6F0EFC23795E11005D69AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		B695918FEA5FD0CBDD28C62A /* Frameworks */ = {
@@ -206,7 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D2E489C237410D5001048FB /* ViewController.swift in Sources */,
+				3D2E489C237410D5001048FB /* HomeViewController.swift in Sources */,
 				3D2E4898237410D5001048FB /* AppDelegate.swift in Sources */,
 				3D2E489A237410D5001048FB /* SceneDelegate.swift in Sources */,
 			);

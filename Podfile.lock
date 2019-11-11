@@ -72,6 +72,7 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (6.3.1):
     - GoogleUtilities/Logger
+  - JXCategoryView (1.5.2)
   - Kingfisher (5.9.0):
     - Kingfisher/Core (= 5.9.0)
   - Kingfisher/Core (5.9.0)
@@ -123,6 +124,7 @@ DEPENDENCIES:
   - Firebase/Analytics (~> 6.7.0)
   - FLAnimatedImage
   - FLEX
+  - JXCategoryView
   - Kingfisher
   - lottie-ios
   - MJRefresh
@@ -158,6 +160,7 @@ SPEC REPOS:
     - GoogleDataTransport
     - GoogleDataTransportCCTSupport
     - GoogleUtilities
+    - JXCategoryView
     - Kingfisher
     - libwebp
     - lottie-ios
@@ -195,6 +198,7 @@ SPEC CHECKSUMS:
   GoogleDataTransport: 166f9b9f82cbf60a204e8fe2daa9db3e3ec1fb15
   GoogleDataTransportCCTSupport: f6ab1962e9dc05ab1fb938b795e5b310209edeec
   GoogleUtilities: f895fde57977df4e0233edda0dbeac490e3703b6
+  JXCategoryView: b284d35a7a8772eada05dd78642233e1eb763ea8
   Kingfisher: ff98240aebb7302bdc4f1ecd701761030ce18b16
   libwebp: 057912d6d0abfb6357d8bb05c0ea470301f5d61e
   lottie-ios: 32bf84389337d86fbc8b12266e88452e0abf1dee
@@ -213,6 +217,6 @@ SPEC CHECKSUMS:
   WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
   ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
 
-PODFILE CHECKSUM: 8057e6753c14165350b691af7468add71f27c2a8
+PODFILE CHECKSUM: cc0830e61ee67de79db524f4413068427b635eae
 
 COCOAPODS: 1.7.4

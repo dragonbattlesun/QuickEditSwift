@@ -9,6 +9,7 @@ target 'QuickEditSwift' do
 
   # Pods for QuickEditSwift
      pod 'SnapKit'
+     pod 'JXCategoryView'
      pod 'Alamofire'
      pod 'SAMKeychain', '~> 1.5.2'
      pod 'SwiftyJSON'
