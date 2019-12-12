@@ -6,7 +6,7 @@ PODS:
   - CocoaLumberjack/Core (3.6.0)
   - CocoaLumberjack/Swift (3.6.0):
     - CocoaLumberjack/Core
-  - Crashlytics (3.13.4):
+  - Crashlytics (3.14.0):
     - Fabric (~> 1.10.2)
   - Fabric (1.10.2)
   - FBRetainCycleDetector (0.1.4)
@@ -119,8 +119,7 @@ DEPENDENCIES:
   - Alamofire
   - CHTCollectionViewWaterfallLayout (~> 0.9.7)
   - CocoaLumberjack/Swift
-  - Crashlytics (~> 3.13.4)
-  - Fabric (~> 1.10.2)
+  - Crashlytics (~> 3.14.0)
   - Firebase/Analytics (~> 6.7.0)
   - FLAnimatedImage
   - FLEX
@@ -183,7 +182,7 @@ SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   CHTCollectionViewWaterfallLayout: 9d11068fafecac106695bb5a5d6d0f738483b598
   CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
-  Crashlytics: 2dfd686bcb918dc10ee0e76f7f853fe42c7bd552
+  Crashlytics: 540b7e5f5da5a042647227a5e3ac51d85eed06df
   Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
   FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
   Firebase: 291d7b0a7b393f252358083b5d224884126fa46d
@@ -217,6 +216,6 @@ SPEC CHECKSUMS:
   WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
   ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
 
-PODFILE CHECKSUM: cc0830e61ee67de79db524f4413068427b635eae
+PODFILE CHECKSUM: 6461dd04be3e908db2fea371ed7febaccb75a525
 
 COCOAPODS: 1.7.4

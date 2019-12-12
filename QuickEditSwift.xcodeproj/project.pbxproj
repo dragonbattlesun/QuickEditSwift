@@ -13,6 +13,7 @@
 		3D2E489F237410D5001048FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2E489D237410D5001048FB /* Main.storyboard */; };
 		3D2E48A1237410D6001048FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2E48A0237410D6001048FB /* Assets.xcassets */; };
 		3D2E48A4237410D6001048FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2E48A2237410D6001048FB /* LaunchScreen.storyboard */; };
+		3D6F0EFF237964A5005D69AF /* QHBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6F0EFE237964A5005D69AF /* QHBaseView.swift */; };
 		F78CC3DDCF3F4930F0D054F0 /* libPods-QuickEditSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6B390A68D5224364037D07 /* libPods-QuickEditSwift.a */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		3D2E48A0237410D6001048FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D2E48A3237410D6001048FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D2E48A5237410D6001048FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6F0EFE237964A5005D69AF /* QHBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QHBaseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		3D2E4896237410D5001048FB /* QuickEditSwift */ = {
 			isa = PBXGroup;
 			children = (
+				3D6F0EFD2379648B005D69AF /* Base */,
 				3D6F0EF923795DEE005D69AF /* Home */,
 				3D2E4897237410D5001048FB /* AppDelegate.swift */,
 				3D2E4899237410D5001048FB /* SceneDelegate.swift */,
@@ -113,6 +116,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		3D6F0EFD2379648B005D69AF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3D6F0EFE237964A5005D69AF /* QHBaseView.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		B695918FEA5FD0CBDD28C62A /* Frameworks */ = {
@@ -240,6 +251,7 @@
 			files = (
 				3D2E489C237410D5001048FB /* HomeViewController.swift in Sources */,
 				3D2E4898237410D5001048FB /* AppDelegate.swift in Sources */,
+				3D6F0EFF237964A5005D69AF /* QHBaseView.swift in Sources */,
 				3D2E489A237410D5001048FB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,7 +398,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8D67R8D3MU;
+				DEVELOPMENT_TEAM = 3WF4MZB5ZK;
 				INFOPLIST_FILE = QuickEditSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -406,7 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8D67R8D3MU;
+				DEVELOPMENT_TEAM = 3WF4MZB5ZK;
 				INFOPLIST_FILE = QuickEditSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -24,11 +24,10 @@ target 'QuickEditSwift' do
      pod 'ZipArchive'
      pod 'FLEX'
      pod 'WCDB', '~> 1.0.7.4'
-     pod 'Fabric', '~> 1.10.2'
-     pod 'Crashlytics', '~> 3.13.4'
      pod 'Firebase/Analytics','~> 6.7.0'
      pod 'SocketRocket'
      pod 'CHTCollectionViewWaterfallLayout', '~> 0.9.7'
      pod 'lottie-ios'
      pod 'MLeaksFinder'
+     pod 'Crashlytics', '~> 3.14.0'
 end
