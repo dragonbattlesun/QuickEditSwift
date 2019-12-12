@@ -10,9 +10,6 @@ import Foundation
 import UIKit
 
 class QHBaseView: UIView {
-    override init(frame: CGRect) {
-       return super.init();
-    }
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
